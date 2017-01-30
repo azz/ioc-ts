@@ -78,3 +78,7 @@ const c = container({ x: 'foo' })
 const iHasDependencies = c.inject(iNeedDependencies)
 iHasDependencies(42) // logs 'foo', 42
 ```
+
+[npm-package]: https://www.npmjs.com/package/ioc-ts
+[ci-server]: https://travis-ci.org/DerFlatulator/ioc-ts
+
