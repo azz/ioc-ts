@@ -1,27 +1,36 @@
 {
-  "name": "ts-di",
+  "name": "ioc-ts",
   "version": "0.0.0",
   "description": "TypeScript Dependency Injection",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "mocha"
+    "prepublish": "tsc",
+    "build": "tsc",
+    "test": "npm run build && mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DerFlatulator/ts-di.git"
+    "url": "git+https://github.com/DerFlatulator/ioc-ts.git"
   },
   "keywords": [
     "TypeScript",
-    "Dependency",
-    "Injection",
+    "Dependency Injection",
     "DI",
-    "Container",
-    "Decorator"
+    "Inversion of Control",
+    "Container"
   ],
   "author": "Lucas Azzola <Lucas.Azzola@iress.com.au>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DerFlatulator/ts-di/issues"
+    "url": "https://github.com/DerFlatulator/ioc-ts/issues"
   },
-  "homepage": "https://github.com/DerFlatulator/ts-di#readme"
+  "typings": "lib/index.d.ts",
+  "homepage": "https://github.com/DerFlatulator/ioc-ts#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.38",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "typescript": "~2.1.5"
+  }
 }
