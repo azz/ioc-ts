@@ -2,8 +2,11 @@ language: node_js
 node_js:
   - "7.0"
   - "6.0"
-  - "4.0"
-  - "0.12"
+  - "5.0"  
+  
+# The following are currently not supported:
+#  - "4.0"
+#  - "0.12"
 
 notifications:
   email: false
