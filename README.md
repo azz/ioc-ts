@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/DerFlatulator/ioc-ts.svg)][ci-server]
+[![npm version](https://badge.fury.io/js/ioc-ts.svg)][npm-package] 
+
 # ioc.ts
 
 TypeScript Dependency Injection
