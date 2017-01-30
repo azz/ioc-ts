@@ -1,0 +1,27 @@
+{
+  "name": "ts-di",
+  "version": "0.0.0",
+  "description": "TypeScript Dependency Injection",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerFlatulator/ts-di.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Dependency",
+    "Injection",
+    "DI",
+    "Container",
+    "Decorator"
+  ],
+  "author": "Lucas Azzola <Lucas.Azzola@iress.com.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DerFlatulator/ts-di/issues"
+  },
+  "homepage": "https://github.com/DerFlatulator/ts-di#readme"
+}
